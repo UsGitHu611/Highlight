@@ -1,0 +1,13 @@
+.input{
+    width: 100%;
+    padding-block: 0.8rem;
+    padding-inline: 0.5rem;
+    font-size: 1.2rem;
+    outline: 2px solid transparent;
+    outline-offset: 4px;
+    transition: outline-color 300ms ease;
+    margin-bottom: 1rem;
+    &:focus{
+        outline-color: #ae4859;
+    }
+}

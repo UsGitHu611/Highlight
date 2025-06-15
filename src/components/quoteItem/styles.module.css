@@ -1,0 +1,34 @@
+.item{
+    position: relative;
+    color: darkgray;
+
+    &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -2.5rem;
+        background-image: url("/naruto.svg");
+        background-size: cover;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.quote{
+    margin: 0;
+}
+
+.body{}
+
+.author{
+    display: flex;
+    &:before{ content: "«"; }
+    &:after{ content: "»"; }
+    color: gray;
+    justify-self: end;
+}
+
+::highlight(highlight) {
+    background-color: #ae4859;
+    color: white;
+}

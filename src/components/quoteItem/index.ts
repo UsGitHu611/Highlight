@@ -1,0 +1,1 @@
+export {QuoteItem} from "./QuoteItem.tsx"
